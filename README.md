@@ -42,7 +42,7 @@ The original 40-second mystery score is rendered into `public/game/score.mp3` us
 
 ## Devpost Learn process
 
-The official Skill Pack was installed with `npx skills add challengepost/learn-ai-basics --all -y`. `skills-lock.json` identifies the source and installed skills. The initial playable prototype predates this planning pass; the workflow is being applied now, with that sequence disclosed. Scope and product direction were accepted. The technical spec and process checklist are saved as drafts; unperformed reviews and learning checkpoints are not claimed complete. Personal learner context is excluded from commits.
+The official Skill Pack was installed with `npx skills add challengepost/learn-ai-basics --all -y`. `skills-lock.json` identifies the source and installed skills. The initial playable prototype predates this planning pass; the workflow is being applied now, with that sequence disclosed. Scope and product direction were accepted. The technical spec and checklist remain pending final learner approval. The implementation-verification slices, existing early feedback, and a brief technical recap are recorded; final phone review and submission declarations remain open. See devpost/verification.md for the current tests, evidence and rules audit. Unperformed human checks are not claimed complete. Personal learner context is excluded from commits.
 
 - `devpost/scope.md`: approved concept and boundary.
 - `devpost/prd.md`: product behavior, acceptance criteria and browser autoplay fallback.
