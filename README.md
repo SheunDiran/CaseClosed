@@ -49,10 +49,12 @@ The official Skill Pack was installed with `npx skills add challengepost/learn-a
 
 Live application: https://caseclosed-the-blind-angle.windyrhino8195.chatgpt.site/game/
 
+Demo video: https://www.youtube.com/watch?v=LU25pueexHc
+
 ## Local use
 
 Use the Node version in `package.json` and the pinned pnpm version. With Corepack available, run `corepack pnpm install --frozen-lockfile`, then `corepack pnpm dev` and open the address printed by the runner (portable default: port 5173). No API key is needed for the authored version.
 
 For a dependency-free gameplay preview, run `python3 -m http.server 8000 --directory public` and open `http://localhost:8000/game/`. Typed API questions require the full server; recorded questions, evidence and the verdict remain available in the static preview.
 
-The MIT license covers original project work; see `THIRD_PARTY_NOTICES.md` for dependency and asset notes. Public source repository: https://github.com/SheunDiran/CaseClosed . The public video link and completed Devpost submission remain pending.
+The MIT license covers original project work; see `THIRD_PARTY_NOTICES.md` for dependency and asset notes. Public source repository: https://github.com/SheunDiran/CaseClosed . Demo video: https://www.youtube.com/watch?v=LU25pueexHc . Devpost submission is being prepared; no completed submission is claimed.
