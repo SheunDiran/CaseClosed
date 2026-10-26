@@ -9,17 +9,17 @@ Build mode: fast requested by the learner's repeated instruction to proceed with
 
 ## Slices
 
-- [ ] **1. Verify the camera-to-verdict evidence chain**
+- [x] **1. Verify the camera-to-verdict evidence chain**
   Becomes usable: An investigation where the camera image is verified before it can support the conclusion.
   Why now: Protects the unique kernel before presentation or submission work.
   PRD ref: `prd.md > Viewpoint Verification`, `Supported Theory and Resolution`
   Spec ref: `spec.md > Spatial Verification`, `Theory and Review`
   Build: Retain the implemented fixed case and verify both hypotheses, the derived record and supported verdict.
-  Verify (mechanical): Existing 14 engine/contract tests passed; genuine footage records the case resolution. No new test framework required.
+  Verify (mechanical): All 14 engine/witness tests and TypeScript no-emit check passed again on 26 October 2026. The agent also completed the live browser journey: six sources, both camera hypotheses, derived reconstruction, Nia / before blackout / frame + ledger + reconstruction, then the actual case review. No new test framework introduced.
   Learner check: Inspect the archive, trace both display candidates and submit the supported theory.
   Commit: Existing implementation is saved in source history; no retrospective per-slice approval is claimed.
 
-- [ ] **2. Verify automatic opening and real sound controls**
+- [x] **2. Verify automatic opening and real sound controls**
   Becomes usable: Entry starts the cinematic opening; audible autoplay is attempted with a truthful Enable sound fallback.
   Why now: This resolves the learner's latest concrete feedback without expanding the case.
   PRD ref: `prd.md > Automatic Opening and Sound`
@@ -35,13 +35,13 @@ Build mode: fast requested by the learner's repeated instruction to proceed with
   PRD ref: `prd.md > What We're Building`
   Spec ref: `spec.md > Where It Runs and How Someone Tries It`
   Build: Audit source, prepare the new public repository, host the existing narrated demo and populate the actual submission form using learner-authored answers.
-  Verify (mechanical): Check public repository and video without sign-in; confirm Devpost's actual submission status. Pending account access.
+  Verify (mechanical): Public repository created and verified by an unauthenticated clone; MIT license, required plans, source and original assets are present. Supplied YouTube URL is saved in Devpost and resolves the demo title and duration; cloud streaming remained buffering, so playback of that uploaded stream is unverified. Devpost submission remains a draft until required eligibility and terms declarations are accepted.
   Learner check: Review the real entry, provide personal/reflection answers and complete account/contract actions when required.
-  Commit: Pending final source/document publication.
+  Commit: Game/source upload commit d5e7b0c589ce0621896776fbefca6f1fa13bec71; video-link documentation commit 1f528081e254c34e3ec7d753086e74519e4568af. Final declaration and submission remain pending.
 
 ## Hands-on Checkpoints
 
-- [ ] Early usable behavior explored — prior feedback exists, but no fabricated completion of the formal checkpoint.
+- [x] Early usable behavior explored — the learner reported difficulty understanding the app, requested an animated opening and reported inaudible sound. Those actual observations drove the briefing/intro/audio revisions; this records the existing feedback and does not invent a separate earlier Skill Pack session.
 - [ ] Final kick-the-tires exploration and feedback completed — final physical-device sound retry not confirmed.
 
 ## Final Review
@@ -51,17 +51,19 @@ Build mode: fast requested by the learner's repeated instruction to proceed with
 
 ## Code Tour and App Map
 
-- [ ] Learning activity complete — reference recap supplied; learner practice not asserted.
-- [ ] Optional edit and transfer reflection addressed — no extra exercise imposed before submission.
+- [x] Brief evidence-based recap supplied on 26 October 2026, as permitted by the pack's no-extra-exercise alternative. It connected app.js interactions, engine.js spatial/evidence checks and the supported verdict, and distinguished authored replies from live AI. This is a recap, not learner hands-on practice or a claim of mastery.
+- [x] Optional edit/reflection not imposed; the learner requested completion and submission. No personal reflection was written on her behalf.
 - [x] `devpost/app-map.html` generated from actual code with a reference route; no live learner walkthrough is claimed.
 
 Activity and evidence: Reference recap of autoplay acceptance versus observed browser rejection and user-gesture recovery; source `app.js` and browser observations.
 Route and stops: Reference-only route: `startOpening` / `playScore`; `verifyCamera`; `evaluateTheory`.
 Edit outcome: Requested audio revision implemented and tested by the agent; not described as a learner-performed edit.
 Reflection: No personal reflection authored on the learner's behalf.
-Activity mode: Reference recap and map; no invented hands-on completion.
+Activity mode: Brief evidence-based recap and reference map; no invented hands-on completion. The map remains at devpost/app-map.html.
 
 ## Revisions
 
 - Initial prototype existed before the official pack was installed. Process documents report that timeline honestly; eligibility remains for the organizer to determine.
 - Unconditional audible autoplay cannot be guaranteed by a website. Attempt playback and expose a truthful tap-to-enable fallback instead.
+
+- On 26 October 2026 the agent completed a fresh live case-to-resolution verification and reran existing checks. Implementation-verification slices are checked separately from learner review and final submission, which remain open. This is a current verification pass, not reconstructed pre-build history.
