@@ -36,7 +36,7 @@ Full local application: install the pinned dependencies with Corepack/pnpm, then
 
 Dependency-free static gameplay preview: `python3 -m http.server 8000 --directory public`, then open `http://localhost:8000/game/`. Recorded questions, evidence, reconstruction and verdict work; typed question API requests require the full server and do not work in a static-only server.
 
-No key is needed for the demonstrated authored version. Optional future model activation requires server-side `OPENAI_API_KEY` and `OPENAI_MODEL`; `.env.example` contains blank placeholders. Never put keys into the client or commit local credentials. Deployment is additional to the required public repository and short public video. Source repository: https://github.com/SheunDiran/CaseClosed . The public demo-video URL remains pending until uploaded and verified.
+No key is needed for the demonstrated authored version. Optional future model activation requires server-side `OPENAI_API_KEY` and `OPENAI_MODEL`; `.env.example` contains blank placeholders. Never put keys into the client or commit local credentials. Deployment is additional to the required public repository and short public video. Source repository: https://github.com/SheunDiran/CaseClosed . Demo-video URL supplied for this submission: https://www.youtube.com/watch?v=LU25pueexHc .
 
 ## Look and Feel
 Implements `prd.md > Look and Feel`. Preserve petrol backgrounds, gold accents, elegant serif headings, readable evidence panels and subtle transitions. Respect reduced-motion preferences. Keep Skip opening available and sound controls visible. The original mystery score uses suspended minor harmonies, soft pulses and piano-like tones, with no commercial samples or jump scares.
